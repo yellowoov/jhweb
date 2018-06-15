@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>BOOK HISTORY | 킬 오더</title>
+    <scrypt type="text/javascript" src="http://code.jquery.com/jquery-2.2.3.min.js"></script>
+    <script type="text/javascript" src="mouse_event.js"></script>
+    <script type="text/javascript" src="search.js"></script>
+    <meta charset="utf-8">
+
+    <style>
+      p {
+        text-align: center;
+        font-family: Arial, sans;
+        font-size: 15px;
+        color: #66c2ea;
+        top: 0;
+        position: absolute;
+        margin-top: 100px;
+        margin-left: 150px;
+      }
+      p span {
+        color: #009FE3;
+      }
+      div img {
+        margin: 10px 40px 10px 124px;
+        width: 200px;
+        height: 300px;
+      }
+      ul {
+        list-style-type: none;
+        padding: 0;
+        overflow: hidden;
+        background-color: #009FE3;
+        top: 0;
+        position: absolute;
+        margin-top: 25px;
+        margin-left: 400px;
+        width: 390px;
+      }
+      li {
+        display: inline;
+        font-family: Arial, sans;
+        font-size: 15px;
+      }
+      li a {
+        display: inline-block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+      li a:hover {
+        background-color: #66c2ea;
+      }
+      hr {
+        margin-bottom: 10px;
+        margin-top: 25px;
+        width: 100%;
+        size: 1;
+      }
+      .bookhrtop {
+        width: 200px;
+        size: 1;
+        margin-left: 124px;
+        margin-bottom: 10px;
+        margin-top: 100px;
+      }
+      .bookhrbottom {
+        width: 200px;
+        size: 1;
+        margin-left: 124px;
+        margin-bottom: 10px;
+        margin-top: 10px;
+      }
+      .logo {
+        top: 0;
+        position: relative;
+      }
+      .introtitle {
+        font-weight: bold;
+        margin-left: 183px;
+        margin-top: 100px;
+        font-family: Arial, sans;
+        font-size: 25px;
+        text-align: left;
+        position: absolute;
+        color: #34a4d4;
+      }
+      .introarticle {
+        margin-left: 430px;
+        margin-top: 170px;
+        font-family: Arial, sans;
+        font-size: 18px;
+        text-align: left;
+        top: 0;
+        position: absolute;
+        color: #009FE3;
+      }
+      .contents {
+        margin-left: 20px;
+        font-family: Arial, sans;
+        font-size: 13px;
+        color: #66c2ea;
+      }
+    </style>
+  </head>
+  <body>
+    <a class="logo" href="index.html"><img src="로고.jpg"></a>
+    <ul>
+      <li><a href="#bookmark-1">Home</a></li>
+      <li><a href="#bookmark-2">Why</a></li>
+      <li><a href="#bookmark-3">Read</a></li>
+      <li><a href="#bookmark-4">Will Read</a></li>
+      <li onclick="search(this)"><a href="#bookmark-5">Search</a></li>
+    </ul>
+
+    <hr>
+    <p>Welcome to visiting <span>BOOK HISTORY!</span><p>
+
+    <hr class="bookhrtop">
+    <div><img src="킬오더.jpg"></div>
+    <hr class="bookhrbottom">
+    <p class="introtitle"><br><br><br>책 소개</p>
+    <span class="introarticle"><br>제목 <span class="contents"> 킬 오더 (원제 : The Kill Order)</span>
+    <br><br>저자 <span class="contents"> 제임스 대시너</span>
+    <br><br>역자 <span class="contents"> 공보경</span>
+    <br><br>출판사 <span class="contents"> 문학수첩</span>
+    <br><br>줄거리 <span class="contents">
+    박스오피스 1위에 빛나는 SF 스릴러 '메이즈러너' 시리즈의 프리퀄 1탄.
+    <br>전 시리즈에서 흑막 역할을 하는 단체 '사악(WICKED)'이 창설되기 전,
+    <br>의문의 바이러스가 전 지구적으로 퍼지기 시작한 초반의 이야기를 흥미진진하게 다루고 있다.
+    <br>뉴욕에 살던 마크는 지하철을 타고 이동하던 중, 태양 플레어 현상을 겪는다.
+    <br>인류의 상당수가 사망한 사상 최악의 현상으로부터 운 좋게 살아남은 마크와 트리나, 알렉, 라나, 미스티, 토드 등
+    <br>생사를 함께 하게 된 생존자들은 내륙의 산맥으로 이동해 정착촌을 일구게 된다.
+    <br>하지만 가까스로 찾은 평온은 바이러스를 묻힌 화살을 마구잡이로 쏘아대는 정체불명의 비행선이 나타나면서
+    <br>산산조각이 나고 만다. 그들은 바이러스가 창궐한 지옥에서 생존할 수 있을까?</span>
+    <br><br>출처 <span class="contents"> NAVER 책 - <a href="http://book.naver.com/bookdb/book_detail.nhn?bid=9204483">http://book.naver.com/bookdb/book_detail.nhn?bid=9204483</a></span>
+    <br><br><br><br><br><br>
+    </span>
+  </body>
+</html>

@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>BOOK HISTORY | 피버코드</title>
+    <scrypt type="text/javascript" src="http://code.jquery.com/jquery-2.2.3.min.js"></script>
+    <script type="text/javascript" src="mouse_event.js"></script>
+    <script type="text/javascript" src="search.js"></script>
+    <meta charset="utf-8">
+
+    <style>
+      p {
+        text-align: center;
+        font-family: Arial, sans;
+        font-size: 15px;
+        color: #66c2ea;
+        top: 0;
+        position: absolute;
+        margin-top: 100px;
+        margin-left: 150px;
+      }
+      p span {
+        color: #009FE3;
+      }
+      div img {
+        margin: 10px 40px 10px 124px;
+        width: 200px;
+        height: 300px;
+      }
+      ul {
+        list-style-type: none;
+        padding: 0;
+        overflow: hidden;
+        background-color: #009FE3;
+        top: 0;
+        position: absolute;
+        margin-top: 25px;
+        margin-left: 400px;
+        width: 390px;
+      }
+      li {
+        display: inline;
+        font-family: Arial, sans;
+        font-size: 15px;
+      }
+      li a {
+        display: inline-block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+      li a:hover {
+        background-color: #66c2ea;
+      }
+      hr {
+        margin-bottom: 10px;
+        margin-top: 25px;
+        width: 100%;
+        size: 1;
+      }
+      .bookhrtop {
+        width: 200px;
+        size: 1;
+        margin-left: 124px;
+        margin-bottom: 10px;
+        margin-top: 100px;
+      }
+      .bookhrbottom {
+        width: 200px;
+        size: 1;
+        margin-left: 124px;
+        margin-bottom: 10px;
+        margin-top: 10px;
+      }
+      .logo {
+        top: 0;
+        position: relative;
+      }
+      .introtitle {
+        font-weight: bold;
+        margin-left: 183px;
+        margin-top: 100px;
+        font-family: Arial, sans;
+        font-size: 25px;
+        text-align: left;
+        position: absolute;
+        color: #34a4d4;
+      }
+      .introarticle {
+        margin-left: 430px;
+        margin-top: 170px;
+        font-family: Arial, sans;
+        font-size: 18px;
+        text-align: left;
+        top: 0;
+        position: absolute;
+        color: #009FE3;
+      }
+      .contents {
+        margin-left: 20px;
+        font-family: Arial, sans;
+        font-size: 13px;
+        color: #66c2ea;
+      }
+    </style>
+  </head>
+  <body>
+    <a class="logo" href="index.html"><img src="로고.jpg"></a>
+    <ul>
+      <li><a href="#bookmark-1">Home</a></li>
+      <li><a href="#bookmark-2">Why</a></li>
+      <li><a href="#bookmark-3">Read</a></li>
+      <li><a href="#bookmark-4">Will Read</a></li>
+      <li onclick="search(this)"><a href="#bookmark-5">Search</a></li>
+    </ul>
+
+    <hr>
+    <p>Welcome to visiting <span>BOOK HISTORY!</span><p>
+
+    <hr class="bookhrtop">
+    <div><img src="피버코드.jpg"></div>
+    <hr class="bookhrbottom">
+    <p class="introtitle"><br><br><br>책 소개</p>
+    <span class="introarticle"><br>제목 <span class="contents"> 피버코드 (원제 : The Fever Code)</span>
+    <br><br>저자 <span class="contents"> 제임스 대시너</span>
+    <br><br>역자 <span class="contents"> 공보경</span>
+    <br><br>출판사 <span class="contents"> 문학수첩</span>
+    <br><br>줄거리 <span class="contents">
+    박스오피스 1위에 빛나는 SF 스릴러 '메이즈러너' 시리즈의 프리퀄 2탄.
+    <br>두 번째 프리퀄인 『피버코드』는 첫 번째 프리퀄인 『킬 오더』에서 연결되며
+    <br>시리즈 마지막까지 독자들에게 의문을 품게 했던 수수께끼를 밝힌다.
+    <br>'사악(WICKED)'이 전염병이 창궐한 가운데 아이들을 모집한 이유는 무엇일까?
+    <br>누구도 알 수 없는 끝없는 교육과 실험은 과연 무엇을 위함인가?
+    <br>끔찍하고 추악한 '사악(WICKED)'의 목적과 그들이 숨기고자 했던 비밀이 드러난다!
+    </span>
+    <br><br>출처 <span class="contents"> NAVER 책 - <a href="http://book.naver.com/bookdb/book_detail.nhn?bid=12892152">http://book.naver.com/bookdb/book_detail.nhn?bid=12892152</a></span>
+    <br><br><br><br><br><br>
+    </span>
+  </body>
+</html>

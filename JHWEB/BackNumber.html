@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>BOOK HISTORY | 빽넘버</title>
+    <meta charset="utf-8">
+    <scrypt type="text/javascript" src="http://code.jquery.com/jquery-2.2.3.min.js"></script>
+    <script type="text/javascript" src="mouse_event.js"></script>
+    <script type="text/javascript" src="search.js"></script>
+
+    <style>
+      p {
+        text-align: center;
+        font-family: Arial, sans;
+        font-size: 15px;
+        color: #66c2ea;
+        top: 0;
+        position: absolute;
+        margin-top: 100px;
+        margin-left: 150px;
+      }
+      p span {
+        color: #009FE3;
+      }
+      div img {
+        margin: 10px 40px 10px 124px;
+        width: 200px;
+        height: 300px;
+      }
+      ul {
+        list-style-type: none;
+        padding: 0;
+        overflow: hidden;
+        background-color: #009FE3;
+        top: 0;
+        position: absolute;
+        margin-top: 25px;
+        margin-left: 400px;
+        width: 390px;
+      }
+      li {
+        display: inline;
+        font-family: Arial, sans;
+        font-size: 15px;
+      }
+      li a {
+        display: inline-block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+      li a:hover {
+        background-color: #66c2ea;
+      }
+      hr {
+        margin-bottom: 10px;
+        margin-top: 25px;
+        width: 100%;
+        size: 1;
+      }
+      .bookhrtop {
+        width: 200px;
+        size: 1;
+        margin-left: 124px;
+        margin-bottom: 10px;
+        margin-top: 100px;
+      }
+      .bookhrbottom {
+        width: 200px;
+        size: 1;
+        margin-left: 124px;
+        margin-bottom: 10px;
+        margin-top: 10px;
+      }
+      .logo {
+        top: 0;
+        position: relative;
+      }
+      .introtitle {
+        font-weight: bold;
+        margin-left: 183px;
+        margin-top: 100px;
+        font-family: Arial, sans;
+        font-size: 25px;
+        text-align: left;
+        position: absolute;
+        color: #34a4d4;
+      }
+      .introarticle {
+        margin-left: 430px;
+        margin-top: 170px;
+        font-family: Arial, sans;
+        font-size: 18px;
+        text-align: left;
+        top: 0;
+        position: absolute;
+        color: #009FE3;
+      }
+      .contents {
+        margin-left: 20px;
+        font-family: Arial, sans;
+        font-size: 13px;
+        color: #66c2ea;
+      }
+    </style>
+  </head>
+  <body>
+    <a class="logo" href="index.html"><img src="로고.jpg"></a>
+    <ul>
+      <li><a href="#bookmark-1">Home</a></li>
+      <li><a href="#bookmark-2">Why</a></li>
+      <li><a href="#bookmark-3">Read</a></li>
+      <li><a href="#bookmark-4">Will Read</a></li>
+      <li onclick="search(this)"><a href="#bookmark-5">Search</a></li>
+    </ul>
+
+    <hr>
+    <p>Welcome to visiting <span>BOOK HISTORY!</span><p>
+
+    <hr class="bookhrtop">
+    <div><img src="빽넘버.jpg"></div>
+    <hr class="bookhrbottom">
+    <p class="introtitle"><br><br><br>책 소개</p>
+    <span class="introarticle"><br>제목 <span class="contents"> 빽넘버</span>
+    <br><br>저자 <span class="contents"> 임선경</span>
+    <br><br>출판사 <span class="contents"> 들녘</span>
+    <br><br>줄거리 <span class="contents">
+    불운한 교통사고로 부모님을 모두 잃고 중상을 입은 청년 이원영의 눈에 이상한 숫자가 보이기 시작한다!
+    <br>부모님과의 여행 중, 휴게소에서 나와 고속도로에 올라탄 원영과 부모님의 차.
+    <br>고속도로를 달리던 중, 끔찍한 교통사로를 당하게 되고, 눈을 떠보니 부모님은 사고로 돌아가시고
+    <br>몸은 병원 침대에 누워있는 자신의 모습에 참담한 심정을 느낀 원영.
+    <br>교통사고 이후, 그에게 남들에게는 없는 능력이 생긴다. 이는 다른 이의 등에 쓰인 숫자를 보는 능력.
+    <br>어느 날, 원영은 빽넘버가 없는 남자와 맞닥뜨리고 그의 정체를 알게된 원영.
+    <br>왜 그에게 이러한 능력이 생긴걸까?
+    </span>
+    <br><br>출처 <span class="contents"> NAVER 책 - <a href="http://book.naver.com/bookdb/book_detail.nhn?bid=10514429">http://book.naver.com/bookdb/book_detail.nhn?bid=10514429</a></span>
+    <br><br><br><br><br><br>
+    </span>
+  </body>
+</html>

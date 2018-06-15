@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>BOOK HISTORY | Home</title>
+    <scrypt type="text/javascript" src="http://code.jquery.com/jquery-2.2.3.min.js"></script>
+    <script type="text/javascript" src="mouse_event.js"></script>
+    <script type="text/javascript" src="search.js"></script>
+    <meta charset="utf-8">
+    <style>
+      p {
+        text-align: center;
+        font-family: Arial, sans;
+        font-size: 15px;
+        color: #66c2ea;
+        top: 0;
+        position: absolute;
+        margin-top: 100px;
+        margin-left: 150px;
+      }
+      p span {
+        color: #009FE3;
+      }
+      div img {
+        margin: 10px 40px 10px 40px;
+        width: 140px;
+        height: 200px;
+      }
+      ul {
+        list-style-type: none;
+        padding: 0;
+        overflow: hidden;
+        background-color: #009FE3;
+        top: 0;
+        position: absolute;
+        margin-top: 25px;
+        margin-left: 400px;
+        width: 390px;
+      }
+      li {
+        display: inline;
+        font-family: Arial, sans;
+        font-size: 15px;
+      }
+      li a {
+        display: inline-block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+      li a:hover {
+        background-color: #66c2ea;
+      }
+      hr {
+        margin-bottom: 10px;
+        margin-top: 25px;
+        width: 100%;
+        size: 1;
+      }
+      .index {
+        margin-left: 27px;
+        text-align: left;
+        font-family: Arial, sans;
+        font-size: 18px;
+        color: #66c2ea;
+      }
+      .logo {
+        top: 0;
+        position: relative;
+      }
+      .bookmark {
+        font-family: Arial, sans;
+        font-size: 10px;
+        color: #95d2ed;
+      }
+      .purpose {
+        font-family: Arial, sans;
+        font-size: 12px;
+        color: #7cccef;
+      }
+      .code {
+        font-family: sans-serif;
+        font-size: 20px;
+        text-align: center;
+        margin-bottom: 100px;
+        color: #009FE3;
+      }
+      .info {
+        font-family: sans-serif;
+        font-size: 20px;
+        text-align: center;
+        margin-bottom: 100px;
+        color:#78c4e5;
+      }
+    </style>
+  </head>
+  <body>
+    <a class="logo" href="index.html"><img src="로고.jpg"></a>
+    <ul>
+      <li><a href="#bookmark-1">Home</a></li>
+      <li><a href="#bookmark-2">Why</a></li>
+      <li><a href="#bookmark-3">Read</a></li>
+      <li><a href="#bookmark-4">Will Read</a></li>
+      <li onclick="search(this)"><a href="#bookmark-5">Search</a></li>
+    </ul>
+
+    <p>Welcome to visiting <span>BOOK HISTORY!</span><p>
+
+    <hr>
+    <div class="index" id="bookmark-2"><h3>Why?
+      <span class="bookmark"> 홈페이지 개발 의도</span></h3>
+      <span class="purpose"> 웹클라이언트컴퓨팅 수업 프로젝트용으로 개발을 시작했으나, 사실은 개발자의 독서 포트폴리오 작성을 목표로 합니다
+      <br>Read! 는 개발자가 읽은 책이고 Will Read! 는 개발자가 읽을 책입니다
+      <br>개발자의 독서 현황이 업데이트되는 데에 얼마나 걸릴지는 잘 모르겠습니다(?)</span>
+    </div>
+
+    <hr>
+    <div class="index" id="bookmark-3"><h3>Read!
+      <span class="bookmark"> 개발자가 읽은 책</span></h3>
+    </div>
+    <div>
+      <a href="KillOrder.html"><img onmouseenter="bigger(this)" onmouseleave="normal(this)" src="킬오더.jpg"></a>
+      <a href="FeverCode.html"><img onmouseenter="bigger(this)" onmouseleave="normal(this)" src="피버코드.jpg"></a>
+      <a href="MazeRunner.html"><img onmouseenter="bigger(this)" onmouseleave="normal(this)" src="메이즈러너.jpg"></a>
+      <a href="ScorchTrials.html"><img onmouseenter="bigger(this)" onmouseleave="normal(this)" src="스코치트라이얼.jpg"></a>
+      <a href="DeathCure.html"><img onmouseenter="bigger(this)" onmouseleave="normal(this)" src="데스큐어.jpg"></a>
+      <a href="LeftOver.html"><img onmouseenter="bigger(this)" onmouseleave="normal(this)" src="레프트오버.jpg"></a>
+      <a href="BackNumber.html"><img onmouseenter="bigger(this)" onmouseleave="normal(this)" src="빽넘버.jpg"></a>
+      <a href="Snoop.html"><img onmouseenter="bigger(this)" onmouseleave="normal(this)" src="스눕.jpg"></a>
+    </div>
+
+    <hr>
+    <div class="index" id="bookmark-4"><h3>Will Read!<span class="bookmark"> 개발자가 읽을 책</span></h3></div>
+    <div>
+      <a href="Criminal.html"><img onmouseenter="bigger(this)" onmouseleave="normal(this)" src="범죄자 상.jpg"></a>
+      <a href="Criminal.html"><img onmouseenter="bigger(this)" onmouseleave="normal(this)" src="범죄자 하.jpg"></a>
+      <a href="Algorithm.html"><img onmouseenter="bigger(this)" onmouseleave="normal(this)" src="머신러닝.jpg"></a>
+    </div>
+    <hr>
+    <div class="code">Coded by
+    <span class="info">LeeJungHun</span></div>
+  </body>
+</html>

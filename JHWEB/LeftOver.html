@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>BOOK HISTORY | 레프트오버</title>
+    <scrypt type="text/javascript" src="http://code.jquery.com/jquery-2.2.3.min.js"></script>
+    <script type="text/javascript" src="mouse_event.js"></script>
+    <script type="text/javascript" src="search.js"></script>
+    <meta charset="utf-8">
+
+    <style>
+      p {
+        text-align: center;
+        font-family: Arial, sans;
+        font-size: 15px;
+        color: #66c2ea;
+        top: 0;
+        position: absolute;
+        margin-top: 100px;
+        margin-left: 150px;
+      }
+      p span {
+        color: #009FE3;
+      }
+      div img {
+        margin: 10px 40px 10px 124px;
+        width: 200px;
+        height: 300px;
+      }
+      ul {
+        list-style-type: none;
+        padding: 0;
+        overflow: hidden;
+        background-color: #009FE3;
+        top: 0;
+        position: absolute;
+        margin-top: 25px;
+        margin-left: 400px;
+        width: 390px;
+      }
+      li {
+        display: inline;
+        font-family: Arial, sans;
+        font-size: 15px;
+      }
+      li a {
+        display: inline-block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+      li a:hover {
+        background-color: #66c2ea;
+      }
+      hr {
+        margin-bottom: 10px;
+        margin-top: 25px;
+        width: 100%;
+        size: 1;
+      }
+      .bookhrtop {
+        width: 200px;
+        size: 1;
+        margin-left: 124px;
+        margin-bottom: 10px;
+        margin-top: 100px;
+      }
+      .bookhrbottom {
+        width: 200px;
+        size: 1;
+        margin-left: 124px;
+        margin-bottom: 10px;
+        margin-top: 10px;
+      }
+      .logo {
+        top: 0;
+        position: relative;
+      }
+      .introtitle {
+        font-weight: bold;
+        margin-left: 183px;
+        margin-top: 100px;
+        font-family: Arial, sans;
+        font-size: 25px;
+        text-align: left;
+        position: absolute;
+        color: #34a4d4;
+      }
+      .introarticle {
+        margin-left: 430px;
+        margin-top: 170px;
+        font-family: Arial, sans;
+        font-size: 18px;
+        text-align: left;
+        top: 0;
+        position: absolute;
+        color: #009FE3;
+      }
+      .contents {
+        margin-left: 20px;
+        font-family: Arial, sans;
+        font-size: 13px;
+        color: #66c2ea;
+      }
+    </style>
+  </head>
+  <body>
+    <a class="logo" href="index.html"><img src="로고.jpg"></a>
+    <ul>
+      <li><a href="#bookmark-1">Home</a></li>
+      <li><a href="#bookmark-2">Why</a></li>
+      <li><a href="#bookmark-3">Read</a></li>
+      <li><a href="#bookmark-4">Will Read</a></li>
+      <li onclick="search(this)"><a href="#bookmark-5">Search</a></li>
+    </ul>
+
+    <hr>
+    <p>Welcome to visiting <span>BOOK HISTORY!</span><p>
+
+    <hr class="bookhrtop">
+    <div><img src="레프트오버.jpg"></div>
+    <hr class="bookhrbottom">
+    <p class="introtitle"><br><br><br>책 소개</p>
+    <span class="introarticle"><br>제목 <span class="contents"> 레프트오버 (원제 : The Leftovers)</span>
+    <br><br>저자 <span class="contents"> 톰 페로타</span>
+    <br><br>역자 <span class="contents"> 전행선</span>
+    <br><br>출판사 <span class="contents"> 북플라자</span>
+    <br><br>줄거리 <span class="contents">
+    전 세계 인구 2%가 흔적도 없이 사라졌다!
+    <br>어느 날 사랑하는 외동딸이 사라졌다. 눈에 넣어도 아프지 않을 것 같던 어린 아들도 사라졌다.
+    <br>곁에 있던 단짝 친구도 사라졌다. 그렇게 전 세계 인구의 2%가 어느 날 갑자기 연기처럼 증발해버렸다.
+    <br>『레프트오버』는 인간의 삶과 존재에 대한 의문을 일상생활 속에 절묘하게 녹여냈다.
+    <br>갑작스런 증발 이후 남겨진, 선택받지 못했다고 칭해지는 전 세계 98%의 사람들의 이야기가 펼쳐진다.
+    <br>누가 보아도 충격적인 이 사건을 겪은 사람들은 어떤 대처를 보이고 있을까?
+    <br>전 세계 인구의 2%는 왜 사라졌으며 어디로 사라진 것일까?
+    </span>
+    <br><br>출처 <span class="contents"> NAVER 책 - <a href="http://book.naver.com/bookdb/book_detail.nhn?bid=8942654">http://book.naver.com/bookdb/book_detail.nhn?bid=8942654</a></span>
+    <br><br><br><br><br><br>
+    </span>
+  </body>
+</html>
