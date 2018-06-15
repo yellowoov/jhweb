@@ -50,7 +50,7 @@ function search(x) {
       window.open("Algorithm.html");
       break;
     default:
-      alert("잘못된 입력입니다.");
+      alert("잘못된 입력입니다");
       break;
   }
 }

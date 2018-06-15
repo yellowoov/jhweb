@@ -3,9 +3,12 @@
 <html>
   <head>
     <title>BOOK HISTORY | 스눕: 상대를 꿰뚫어보는 힘</title>
-    <scrypt type="text/javascript" src="http://code.jquery.com/jquery-2.2.3.min.js"></script>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-2.2.3.min.js"></script>
     <script type="text/javascript" src="mouse_event.js"></script>
     <script type="text/javascript" src="search.js"></script>
+    <script type="text/javascript" src="game.js"></script>
+    <script type="text/javascript" src="gababo.js"></script>
+
     <meta charset="utf-8">
 
     <style>
@@ -36,7 +39,7 @@
         position: absolute;
         margin-top: 25px;
         margin-left: 400px;
-        width: 390px;
+        width: 568px;
       }
       li {
         display: inline;
@@ -108,11 +111,14 @@
   <body>
     <a class="logo" href="index.html"><img src="로고.jpg"></a>
     <ul>
-      <li><a href="#bookmark-1">Home</a></li>
-      <li><a href="#bookmark-2">Why</a></li>
-      <li><a href="#bookmark-3">Read</a></li>
-      <li><a href="#bookmark-4">Will Read</a></li>
+      <li><a href="index.html#bookmark-1">Home</a></li>
+      <li><a href="index.html#bookmark-2">Why</a></li>
+      <li><a href="index.html#bookmark-3">Read</a></li>
+      <li><a href="index.html#bookmark-4">Will Read</a></li>
       <li onclick="search(this)"><a href="#bookmark-5">Search</a></li>
+      <li onclick="main(this)"><a href="#bookmark-6">Game 1</a></li>
+      <li onclick="gababo(this)"><a href="#bookmark-7">Game 2</a></li>
+
     </ul>
 
     <hr>
