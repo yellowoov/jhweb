@@ -13,6 +13,7 @@ function main(x) {
       break;
     default:
       alert("잘못된 입력입니다");
+      break;
   }
 }
 
